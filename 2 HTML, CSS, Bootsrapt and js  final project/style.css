@@ -1,0 +1,155 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.main {
+  background-color: #fff500;
+  display: flex;
+  /* flex-wrap: wrap; */
+  width: 100%;
+  /* position: fixed; */
+  justify-content: space-between;
+}
+.logo img {
+  max-width: 180px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.nav_text,
+.search {
+  margin-top: 30px;
+}
+.search {
+  display: flex;
+  margin-right: 20px;
+}
+.search span {
+  margin-right: 10px;
+}
+.first_search {
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  padding-right: 7px;
+  margin-top: -6px;
+}
+.search_btn button {
+  color: white;
+  font-weight: bold;
+  background-color: #02517a;
+  border-radius: 17px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: -9px;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+.second_search p {
+  cursor: pointer;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+}
+.second_search p span i {
+  padding-left: 14px;
+}
+.first_search{
+    border: 1px solid black;
+}
+.first_search input {
+  width: 90px;
+  padding-top: 8px;
+  padding-left: 5px;
+  font-size: 15px;
+  padding-bottom: 8px;
+  border: none;
+  outline: none;
+}
+.nav_text i {
+  padding-right: 20px;
+}
+.nav_text a {
+  padding-right: 5px;
+  text-transform: uppercase;
+  outline: none;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  /* transition: 0.9s; */
+}
+.nav_text a:hover{
+    border-bottom: 2px solid black;
+}
+/* Sildes */
+.slideShow{
+    /* position: relative; */
+    object-fit: contain;
+    width: 100%;
+}
+.slideShow img{
+    /* position: absolute; */
+    object-fit: contain;
+    width: 100%;
+}
+.context{
+    text-align: center;
+    padding-top: 20px;
+}
+.guide_text, .builder{
+    font-size: 30px;
+}
+.builder{
+    background-color: #fff500;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.icon{
+    background-color: #b4b3b3;
+    margin-left: 20px;
+    margin-right: 5px;
+    border-radius: 50%;
+    padding: 8px 12px;
+    font-size: 20px;
+}
+.for_guide{
+    color: #b4b3b3;
+    font-size: 19px;
+}
+/* Cards */
+.cards{
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    margin: 60px 47px;
+
+}
+.cards_div{
+    cursor: pointer;
+    width: 180px;
+    border-radius: 8px;
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cards_div:hover{
+    box-shadow: rgba(247, 243, 17, 0.972) 0px 4px 12px;
+    /* transition: 2s; */
+}
+.Planning p{
+    padding-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.planB{
+    font-size: 17px;
+    /* font-weight: ; */
+}
